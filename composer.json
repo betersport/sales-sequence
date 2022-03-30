@@ -1,5 +1,5 @@
 {
-  "name": "boolfly/module-sales-sequence",
+  "name": "betersport/module-sales-sequence",
   "description": "Boolfly Sales Sequence Module",
   "require": {
     "php": "~7.3.0||~7.4.0"
