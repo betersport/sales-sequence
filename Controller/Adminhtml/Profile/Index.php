@@ -42,7 +42,6 @@ class Index extends Action implements HttpGetActionInterface
         $resultPage = $this->resultPageFactory->create();
         $resultPage->setActiveMenu('Boolfly_SalesSequence::profile');
         $resultPage->addBreadcrumb(__('Boolfly Sales Sequence'), __('Boolfly Sales Sequence'));
-        $resultPage->addBreadcrumb(__('Boolfly Sales Sequence'), __('Boolfly Sales Sequence'));
         $resultPage->getConfig()->getTitle()->prepend(__('Boolfly Sales Sequence'));
         return $resultPage;
     }
